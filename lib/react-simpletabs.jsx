@@ -96,6 +96,7 @@ var Tabs = React.createClass({
 
         return (
           <li ref={ref} key={index} className={classes}>
+            <i></i>
             <a onClick={this.setActive.bind(this, index + 1)}>
               {title}
             </a>
